@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Rayos X y Servicios Induxtriales</title>
+    <title>Servicio Electricos Automotriz Patricio</title>
     <link rel="stylesheet" href="{{ url('css/style.css') }}">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:200" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/font-awesome/css/font-awesome.min.css') }}">
@@ -11,7 +11,7 @@
     <header>
       <nav class="nav-login">
         <ul class="ul">
-          <li>RAYOS X Y SERVICIOS INDUSTRIALES S.A. DE C.V.</li>
+          <li>SERVICIO ELECTRICOS AUTOMOTRIZ PATRICIO S.A. DE C.V.</li>
         </ul>
       </nav>
     </header>
@@ -33,7 +33,7 @@
     <main class="wrapper">
       <form class="login" method="POST" action="{{ route('login') }}">
         {{ csrf_field() }}
-        <img src="{{ url('img/LogoRX.png')}}" alt="">
+        <!-- <img src="{{ url('img/LogoRX.png')}}" alt=""> -->
         <h1>Login</h1>
         <div>
           <label for="email">Correo</label>

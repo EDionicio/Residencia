@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Rayos X y Servicios Induxtriales</title>
+    <title>Servicio Electricos Automotriz Patricio</title>
     <link rel="stylesheet" href="{{ url('css/style.css') }}">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:200,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -18,7 +18,7 @@
     <main class="wrapper">
       <aside class="menu" id="aside">
         <div class="logo">
-          <a href="{{ url('/admin/admin-welcome') }}"><img class="img-menu" src="{{ url('img/LogoRX.png')}}" alt=""></a>
+          <!-- <a href="{{ url('/admin/admin-welcome') }}"><img class="img-menu" src="{{ url('img/LogoRX.png')}}" alt=""></a> -->
         </div>
         <ul class="ul-menu">
           <li class="li-menu-nav">MENU DE NAVEGACION</li>
@@ -37,8 +37,6 @@
               <li><a href="{{url('admin/clasificationProduct')}}"><i class="fa fa-list"></i>Tipos de Productos</a></li>
             </ul>
           </li>
-          <li class="li-menu-nav">COTIZACION</li>
-          <li><a href="{{url('admin/quotation')}}"><i class="fa fa-book"></i>Cotización</a></li>
         </ul>
       </aside>
       <div class="container" id="container">
@@ -67,7 +65,7 @@
             <select id="search" onchange="catalogo(this)">
               <option value="null">Buscar Producto en Catálogo</option>
               @foreach ($catalog as $products)
-                <option value="{{ $products->id }}">{{ $products->description }}</option>
+                <option value="{{ $products->id }}">{{ $products->category_id }}</option>
               @endforeach
             </select>
           </div>
