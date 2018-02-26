@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Rayos X y Servicios Induxtriales</title>
+    <title>Servicio Electricos Automotriz Patricio</title>
     <link rel="stylesheet" href="{{ url('css/style.css') }}">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:200,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -15,7 +15,7 @@
     <main class="wrapper">
       <aside class="menu" id="aside">
         <div class="logo">
-          <a href="{{ url('/admin/admin-welcome') }}"><img class="img-menu" src="{{ url('img/LogoRX.png')}}" alt=""></a>
+          <a href="{{ url('/admin/admin-welcome') }}"><img class="img-menu" src="{{ url('img/patricio.png')}}" alt=""></a>
         </div>
         <ul class="ul-menu">
           <li class="li-menu-nav">MENU DE NAVEGACION</li>
@@ -42,10 +42,6 @@
               </ul>
             </li>
           @endif
-          <li class="li-menu-nav">COTIZACION</li>
-          @if (auth()->user()->cotizacion === 1)
-            <li><a href="{{url('/admin/quotation')}}"><i class="fa fa-book"></i>Cotización</a></li>
-          @endif
         </ul>
       </aside>
       <div class="container" id="container">
@@ -60,29 +56,29 @@
           </div>
         </div>
         <div class="eslogan">
-          <h1>RX EL EQUIPO QUE SE MUEVE A DONDE TU LO NECESITES!</h1>
+          <h1>SERVICIOS ELECTRICOS AUTOMOTRIZ PATRICIO SE MUEVE A DONDE TU LO NECESITES!</h1>
         </div>
         <div class="businessComplet">
-          {{-- <img src="{{ url('img/3.jpg')}}" alt=""> --}}
+         <!-- <img src="{{ url('img/imagen2.jpg')}}" alt="">  -->
           <div class="businessBody">
             <div class="business">
               <h2>Misión</h2>
-              <p>Generar servicios, transformar y comercializar  en forma eficiente el Servicio de Inspección No Destructiva,
-    						 así como nuestros productos a la Industria Nacional, fomentando la diversificación productiva que propicie
-    						 un valor agregado a cada uno de nuestros Clientes, siendo promotores de la tecnología de punta y apuntalando
-    						 la economía tanto del Estado como del País.</p>
+              <p>SER UNA MICRO-EMPRESA DE CALIDAD EN EL DESARROLLO DE SOLUCIONES A EMPRESAS
+                CONSTRUCTORAS, COMPROMETIDAS EN SATISFACER LAS NECESIDADES DE SUS CLIENTES
+                OFRECIENDOLES UN BUEN SERVICIO, A TRAVES DE SERVICIOS CONFIABLES, ENFOCADOS A LA MEJORA CONTINUA EN LOS PROCESOS Y SERVICIOS.
+              </p>
             </div>
             <div class="business">
               <h2>Visión</h2>
-              <p>Posicionar a Rayos X y Servicios Industriales S.A. de C.V. como empresa líder en la aplicación de
-    								Ensayos No Destructivos y soluciones vía el suministro a las instalaciones petroleras y de la
-    								iniciativa privada en la República Mexicana, proporcionando el servicio requerido, dentro de las
-    								normas de calidad y seguridad que  satisfagan a todos nuestros Clientes.</p>
+              <p>SER UNA EMPRESA DE CALIDAD EN SOLUCIONES DE PROBLEMAS DE EMPRESAS
+              CONSTRUCTORAS, VOLVIENDOSE PARTE FUNDAMENTAL DEL EXITO DE SUS CLIENTES,
+              OFRECIENDO UN SERVICIO CONFIABLE, CON VALORES Y COMPROMETIDOS CON LA CALIDAD.
+              </p>
             </div>
 
           </div>
           <div class="businessImg">
-            <img src="{{ url('img/MV1.jpg')}}" alt="">
+            <img src="{{ url('img/imagen2.jpg')}}" alt="">
           </div>
 
         </div>

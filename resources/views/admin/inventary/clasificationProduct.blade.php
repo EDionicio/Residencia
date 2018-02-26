@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Rayos X y Servicios Induxtriales</title>
+    <title>Servicio Electricos Automotriz Patricio</title>
     <link rel="stylesheet" href="{{ url('css/style.css') }}">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:200,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -15,7 +15,7 @@
     <main class="wrapper">
       <aside class="menu" id="aside">
         <div class="logo">
-          <a href="{{ url('/admin/admin-welcome') }}"><img class="img-menu" src="{{ url('img/LogoRX.png')}}" alt=""></a>
+          <a href="{{ url('/admin/admin-welcome') }}"><img class="img-menu" src="{{ url('img/patricio.png')}}" alt=""></a>
         </div>
         <ul class="ul-menu">
           <li class="li-menu-nav">MENU DE NAVEGACION</li>
@@ -41,10 +41,6 @@
                 <li class="activo"><a href="{{url('admin/clasificationProduct')}}"><i class="fa fa-list"></i>Tipos de Productos</a><small class="bg-indicator">Activo</small></li>
               </ul>
             </li>
-          @endif
-          <li class="li-menu-nav">COTIZACION</li>
-          @if (auth()->user()->cotizacion === 1)
-            <li><a href="{{url('/admin/quotation')}}"><i class="fa fa-book"></i>Cotización</a></li>
           @endif
         </ul>
       </aside>
